@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B8437931D4EFA79007C9D93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8437921D4EFA79007C9D93 /* main.m */; };
+		4B8437961D4EFA79007C9D93 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8437951D4EFA79007C9D93 /* AppDelegate.m */; };
+		4B8437991D4EFA79007C9D93 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8437981D4EFA79007C9D93 /* ViewController.m */; };
+		4B84379C1D4EFA79007C9D93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B84379A1D4EFA79007C9D93 /* Main.storyboard */; };
+		4B84379E1D4EFA79007C9D93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B84379D1D4EFA79007C9D93 /* Assets.xcassets */; };
+		4B8437A11D4EFA79007C9D93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B84379F1D4EFA79007C9D93 /* LaunchScreen.storyboard */; };
+		4B8437AC1D4EFA79007C9D93 /* LXWaveProgressDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8437AB1D4EFA79007C9D93 /* LXWaveProgressDemoTests.m */; };
+		4B8437B71D4EFA79007C9D93 /* LXWaveProgressDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8437B61D4EFA79007C9D93 /* LXWaveProgressDemoUITests.m */; };
+		4B8437C71D4EFAD7007C9D93 /* LXWaveProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8437C61D4EFAD7007C9D93 /* LXWaveProgressView.m */; };
+		4B8437CB1D4F1E44007C9D93 /* DemoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8437C91D4F1E44007C9D93 /* DemoTableViewController.m */; };
+		4B8437CC1D4F1E44007C9D93 /* DemoTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B8437CA1D4F1E44007C9D93 /* DemoTableViewController.xib */; };
+		4B8437CF1D4F1E5F007C9D93 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8437CE1D4F1E5F007C9D93 /* DemoViewController.m */; };
+		4B8437D91D4F463E007C9D93 /* YYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8437D81D4F463E007C9D93 /* YYWeakProxy.m */; };
+		4B8437DC1D4F49EA007C9D93 /* WaveTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8437DB1D4F49EA007C9D93 /* WaveTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B8437A81D4EFA79007C9D93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B8437861D4EFA79007C9D93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B84378D1D4EFA79007C9D93;
+			remoteInfo = LXWaveProgressDemo;
+		};
+		4B8437B31D4EFA79007C9D93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B8437861D4EFA79007C9D93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B84378D1D4EFA79007C9D93;
+			remoteInfo = LXWaveProgressDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B84378E1D4EFA79007C9D93 /* LXWaveProgressDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXWaveProgressDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B8437921D4EFA79007C9D93 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4B8437941D4EFA79007C9D93 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4B8437951D4EFA79007C9D93 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4B8437971D4EFA79007C9D93 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4B8437981D4EFA79007C9D93 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4B84379B1D4EFA79007C9D93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4B84379D1D4EFA79007C9D93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B8437A01D4EFA79007C9D93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B8437A21D4EFA79007C9D93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B8437A71D4EFA79007C9D93 /* LXWaveProgressDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXWaveProgressDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B8437AB1D4EFA79007C9D93 /* LXWaveProgressDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXWaveProgressDemoTests.m; sourceTree = "<group>"; };
+		4B8437AD1D4EFA79007C9D93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B8437B21D4EFA79007C9D93 /* LXWaveProgressDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXWaveProgressDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B8437B61D4EFA79007C9D93 /* LXWaveProgressDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXWaveProgressDemoUITests.m; sourceTree = "<group>"; };
+		4B8437B81D4EFA79007C9D93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B8437C51D4EFAD7007C9D93 /* LXWaveProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXWaveProgressView.h; sourceTree = "<group>"; };
+		4B8437C61D4EFAD7007C9D93 /* LXWaveProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXWaveProgressView.m; sourceTree = "<group>"; };
+		4B8437C81D4F1E44007C9D93 /* DemoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoTableViewController.h; sourceTree = "<group>"; };
+		4B8437C91D4F1E44007C9D93 /* DemoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoTableViewController.m; sourceTree = "<group>"; };
+		4B8437CA1D4F1E44007C9D93 /* DemoTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoTableViewController.xib; sourceTree = "<group>"; };
+		4B8437CD1D4F1E5F007C9D93 /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		4B8437CE1D4F1E5F007C9D93 /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		4B8437D71D4F463E007C9D93 /* YYWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYWeakProxy.h; sourceTree = "<group>"; };
+		4B8437D81D4F463E007C9D93 /* YYWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYWeakProxy.m; sourceTree = "<group>"; };
+		4B8437DA1D4F49EA007C9D93 /* WaveTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveTableViewCell.h; sourceTree = "<group>"; };
+		4B8437DB1D4F49EA007C9D93 /* WaveTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B84378B1D4EFA79007C9D93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B8437A41D4EFA79007C9D93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B8437AF1D4EFA79007C9D93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B8437851D4EFA79007C9D93 = {
+			isa = PBXGroup;
+			children = (
+				4B8437901D4EFA79007C9D93 /* LXWaveProgressDemo */,
+				4B8437AA1D4EFA79007C9D93 /* LXWaveProgressDemoTests */,
+				4B8437B51D4EFA79007C9D93 /* LXWaveProgressDemoUITests */,
+				4B84378F1D4EFA79007C9D93 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B84378F1D4EFA79007C9D93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B84378E1D4EFA79007C9D93 /* LXWaveProgressDemo.app */,
+				4B8437A71D4EFA79007C9D93 /* LXWaveProgressDemoTests.xctest */,
+				4B8437B21D4EFA79007C9D93 /* LXWaveProgressDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B8437901D4EFA79007C9D93 /* LXWaveProgressDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4B8437C41D4EFAB2007C9D93 /* LXWaveProgressView */,
+				4B8437941D4EFA79007C9D93 /* AppDelegate.h */,
+				4B8437951D4EFA79007C9D93 /* AppDelegate.m */,
+				4B8437971D4EFA79007C9D93 /* ViewController.h */,
+				4B8437981D4EFA79007C9D93 /* ViewController.m */,
+				4B84379A1D4EFA79007C9D93 /* Main.storyboard */,
+				4B8437C81D4F1E44007C9D93 /* DemoTableViewController.h */,
+				4B8437C91D4F1E44007C9D93 /* DemoTableViewController.m */,
+				4B8437CA1D4F1E44007C9D93 /* DemoTableViewController.xib */,
+				4B8437DA1D4F49EA007C9D93 /* WaveTableViewCell.h */,
+				4B8437DB1D4F49EA007C9D93 /* WaveTableViewCell.m */,
+				4B8437CD1D4F1E5F007C9D93 /* DemoViewController.h */,
+				4B8437CE1D4F1E5F007C9D93 /* DemoViewController.m */,
+				4B84379D1D4EFA79007C9D93 /* Assets.xcassets */,
+				4B84379F1D4EFA79007C9D93 /* LaunchScreen.storyboard */,
+				4B8437A21D4EFA79007C9D93 /* Info.plist */,
+				4B8437911D4EFA79007C9D93 /* Supporting Files */,
+			);
+			path = LXWaveProgressDemo;
+			sourceTree = "<group>";
+		};
+		4B8437911D4EFA79007C9D93 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B8437921D4EFA79007C9D93 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4B8437AA1D4EFA79007C9D93 /* LXWaveProgressDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B8437AB1D4EFA79007C9D93 /* LXWaveProgressDemoTests.m */,
+				4B8437AD1D4EFA79007C9D93 /* Info.plist */,
+			);
+			path = LXWaveProgressDemoTests;
+			sourceTree = "<group>";
+		};
+		4B8437B51D4EFA79007C9D93 /* LXWaveProgressDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4B8437B61D4EFA79007C9D93 /* LXWaveProgressDemoUITests.m */,
+				4B8437B81D4EFA79007C9D93 /* Info.plist */,
+			);
+			path = LXWaveProgressDemoUITests;
+			sourceTree = "<group>";
+		};
+		4B8437C41D4EFAB2007C9D93 /* LXWaveProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				4B8437C51D4EFAD7007C9D93 /* LXWaveProgressView.h */,
+				4B8437C61D4EFAD7007C9D93 /* LXWaveProgressView.m */,
+				4B8437D71D4F463E007C9D93 /* YYWeakProxy.h */,
+				4B8437D81D4F463E007C9D93 /* YYWeakProxy.m */,
+			);
+			path = LXWaveProgressView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B84378D1D4EFA79007C9D93 /* LXWaveProgressDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B8437BB1D4EFA79007C9D93 /* Build configuration list for PBXNativeTarget "LXWaveProgressDemo" */;
+			buildPhases = (
+				4B84378A1D4EFA79007C9D93 /* Sources */,
+				4B84378B1D4EFA79007C9D93 /* Frameworks */,
+				4B84378C1D4EFA79007C9D93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LXWaveProgressDemo;
+			productName = LXWaveProgressDemo;
+			productReference = 4B84378E1D4EFA79007C9D93 /* LXWaveProgressDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B8437A61D4EFA79007C9D93 /* LXWaveProgressDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B8437BE1D4EFA79007C9D93 /* Build configuration list for PBXNativeTarget "LXWaveProgressDemoTests" */;
+			buildPhases = (
+				4B8437A31D4EFA79007C9D93 /* Sources */,
+				4B8437A41D4EFA79007C9D93 /* Frameworks */,
+				4B8437A51D4EFA79007C9D93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B8437A91D4EFA79007C9D93 /* PBXTargetDependency */,
+			);
+			name = LXWaveProgressDemoTests;
+			productName = LXWaveProgressDemoTests;
+			productReference = 4B8437A71D4EFA79007C9D93 /* LXWaveProgressDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4B8437B11D4EFA79007C9D93 /* LXWaveProgressDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B8437C11D4EFA79007C9D93 /* Build configuration list for PBXNativeTarget "LXWaveProgressDemoUITests" */;
+			buildPhases = (
+				4B8437AE1D4EFA79007C9D93 /* Sources */,
+				4B8437AF1D4EFA79007C9D93 /* Frameworks */,
+				4B8437B01D4EFA79007C9D93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B8437B41D4EFA79007C9D93 /* PBXTargetDependency */,
+			);
+			name = LXWaveProgressDemoUITests;
+			productName = LXWaveProgressDemoUITests;
+			productReference = 4B8437B21D4EFA79007C9D93 /* LXWaveProgressDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B8437861D4EFA79007C9D93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = liuxin;
+				TargetAttributes = {
+					4B84378D1D4EFA79007C9D93 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					4B8437A61D4EFA79007C9D93 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4B84378D1D4EFA79007C9D93;
+					};
+					4B8437B11D4EFA79007C9D93 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4B84378D1D4EFA79007C9D93;
+					};
+				};
+			};
+			buildConfigurationList = 4B8437891D4EFA79007C9D93 /* Build configuration list for PBXProject "LXWaveProgressDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B8437851D4EFA79007C9D93;
+			productRefGroup = 4B84378F1D4EFA79007C9D93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B84378D1D4EFA79007C9D93 /* LXWaveProgressDemo */,
+				4B8437A61D4EFA79007C9D93 /* LXWaveProgressDemoTests */,
+				4B8437B11D4EFA79007C9D93 /* LXWaveProgressDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B84378C1D4EFA79007C9D93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B8437CC1D4F1E44007C9D93 /* DemoTableViewController.xib in Resources */,
+				4B8437A11D4EFA79007C9D93 /* LaunchScreen.storyboard in Resources */,
+				4B84379E1D4EFA79007C9D93 /* Assets.xcassets in Resources */,
+				4B84379C1D4EFA79007C9D93 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B8437A51D4EFA79007C9D93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B8437B01D4EFA79007C9D93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B84378A1D4EFA79007C9D93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B8437991D4EFA79007C9D93 /* ViewController.m in Sources */,
+				4B8437961D4EFA79007C9D93 /* AppDelegate.m in Sources */,
+				4B8437CB1D4F1E44007C9D93 /* DemoTableViewController.m in Sources */,
+				4B8437CF1D4F1E5F007C9D93 /* DemoViewController.m in Sources */,
+				4B8437DC1D4F49EA007C9D93 /* WaveTableViewCell.m in Sources */,
+				4B8437D91D4F463E007C9D93 /* YYWeakProxy.m in Sources */,
+				4B8437C71D4EFAD7007C9D93 /* LXWaveProgressView.m in Sources */,
+				4B8437931D4EFA79007C9D93 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B8437A31D4EFA79007C9D93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B8437AC1D4EFA79007C9D93 /* LXWaveProgressDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B8437AE1D4EFA79007C9D93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B8437B71D4EFA79007C9D93 /* LXWaveProgressDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B8437A91D4EFA79007C9D93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B84378D1D4EFA79007C9D93 /* LXWaveProgressDemo */;
+			targetProxy = 4B8437A81D4EFA79007C9D93 /* PBXContainerItemProxy */;
+		};
+		4B8437B41D4EFA79007C9D93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B84378D1D4EFA79007C9D93 /* LXWaveProgressDemo */;
+			targetProxy = 4B8437B31D4EFA79007C9D93 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4B84379A1D4EFA79007C9D93 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B84379B1D4EFA79007C9D93 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4B84379F1D4EFA79007C9D93 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B8437A01D4EFA79007C9D93 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B8437B91D4EFA79007C9D93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4B8437BA1D4EFA79007C9D93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B8437BC1D4EFA79007C9D93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LXWaveProgressDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myself.demo.LXWaveProgressDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4B8437BD1D4EFA79007C9D93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LXWaveProgressDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myself.demo.LXWaveProgressDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4B8437BF1D4EFA79007C9D93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LXWaveProgressDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myself.demo.LXWaveProgressDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LXWaveProgressDemo.app/LXWaveProgressDemo";
+			};
+			name = Debug;
+		};
+		4B8437C01D4EFA79007C9D93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LXWaveProgressDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myself.demo.LXWaveProgressDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LXWaveProgressDemo.app/LXWaveProgressDemo";
+			};
+			name = Release;
+		};
+		4B8437C21D4EFA79007C9D93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LXWaveProgressDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myself.demo.LXWaveProgressDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LXWaveProgressDemo;
+			};
+			name = Debug;
+		};
+		4B8437C31D4EFA79007C9D93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LXWaveProgressDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myself.demo.LXWaveProgressDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LXWaveProgressDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B8437891D4EFA79007C9D93 /* Build configuration list for PBXProject "LXWaveProgressDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B8437B91D4EFA79007C9D93 /* Debug */,
+				4B8437BA1D4EFA79007C9D93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B8437BB1D4EFA79007C9D93 /* Build configuration list for PBXNativeTarget "LXWaveProgressDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B8437BC1D4EFA79007C9D93 /* Debug */,
+				4B8437BD1D4EFA79007C9D93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4B8437BE1D4EFA79007C9D93 /* Build configuration list for PBXNativeTarget "LXWaveProgressDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B8437BF1D4EFA79007C9D93 /* Debug */,
+				4B8437C01D4EFA79007C9D93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4B8437C11D4EFA79007C9D93 /* Build configuration list for PBXNativeTarget "LXWaveProgressDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B8437C21D4EFA79007C9D93 /* Debug */,
+				4B8437C31D4EFA79007C9D93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B8437861D4EFA79007C9D93 /* Project object */;
+}
