@@ -1,6 +1,9 @@
 # LXWaveProgress
-A simple wave components
-使用方法
+A simple wave components<br />
+###一个简单的波浪进度动画，高度可定制。具体效果见Demo。
+![](http://i2.piimg.com/4851/73b4f6a476b5a56b.gif)
+
+######使用方法
 ```
     LXWaveProgressView *progressView1 = [[LXWaveProgressView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
     progressView1.center=CGPointMake(CGRectGetMidX(self.view.bounds), 270);
