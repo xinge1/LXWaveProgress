@@ -15,5 +15,6 @@ A simple wave components<br />
     progressView1.secondWaveColor = [UIColor colorWithRed:134/255.0 green:116/255.0 blue:210/255.0 alpha:0.5];
     [self.view addSubview:progressView1];
 ```
+欢迎star，有任何问题可以联系我。
 [Demo地址](https://github.com/xinge1/LXWaveProgress)<br />
 [博客地址](http://www.jianshu.com/p/0327ea46d1bc)
